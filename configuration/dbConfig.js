@@ -10,6 +10,9 @@ mongoose.connection.on("connected", () =>{
 mongoose.connection.on("error", (err) =>{
     console.log(`MongoDB connection error: ${err}`);
 });
+
+
+
 // const connectedToMongoDB = async () => {
 //     try {
 //        await mongoose.connect("mongodb://localhost:27017/crud_db");
